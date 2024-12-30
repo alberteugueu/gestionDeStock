@@ -15,7 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 @Entity
 @Table(name="commandeClient")
-public class CommandeClient extends AbstractEntity{
+public class CommandeClient  extends AbstractEntity{
 
     @Column(name="code")
     private String code;

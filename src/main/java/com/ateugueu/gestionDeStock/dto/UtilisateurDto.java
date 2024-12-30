@@ -1,8 +1,4 @@
 package com.ateugueu.gestionDeStock.dto;
-
-import com.ateugueu.gestionDeStock.model.Adresse;
-import com.ateugueu.gestionDeStock.model.Entreprise;
-import com.ateugueu.gestionDeStock.model.Roles;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Builder;
@@ -27,11 +23,11 @@ public class UtilisateurDto {
 
      private String moteDePasse;
 
-     private Adresse adresse;
+     private AdresseDto adresse;
 
      private String photo;
 
-    private Entreprise entreprise;
+    private EntrepriseDto entreprise;
 
     private List<RolesDto> roles;
 }

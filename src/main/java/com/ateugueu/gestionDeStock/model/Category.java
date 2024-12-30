@@ -12,12 +12,11 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 @Data
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
 @Table(name="category")
-public class Category extends AbstractEntity{
+public class Category  extends AbstractEntity{
 
     @Column(name="code")
     private String code;
